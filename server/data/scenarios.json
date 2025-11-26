@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1764146970375,
+    "title": "Manual Test",
+    "description": "Test Description",
+    "skills": "Test"
+  },
+  {
+    "id": 1764147243210,
+    "title": "React Developer Challenge: Build a Feature-Rich Dashboard",
+    "description": "Your task is to design and implement a responsive analytics dashboard using React.js. The dashboard should display dynamic data visualizations (e.g., charts and tables) fetched from a simulated REST API. Integrate state management (e.g., Redux or Context API) to handle user interactions such as filtering and sorting. Optimize the UI for performance on both desktop and mobile, maintain clear documentation, and write unit tests for at least two key components.",
+    "skills": "React.js, JavaScript (ES6+), Redux, REST APIs, HTML, CSS, responsive design, Git, unit testing"
+  },
+  {
+    "id": 1764147525898,
+    "title": "React Developer Challenge: Build a Dynamic Dashboard",
+    "description": "You are tasked with developing an interactive dashboard for a fictional e-commerce company. The dashboard should display real-time sales metrics, allow the user to filter data by date range, and visualize KPIs using charts. Candidates must implement the UI using React.js, manage state and data flow efficiently (Redux or context API), fetch data via RESTful API, and ensure mobile responsiveness. Bonus: Add a loading spinner, error handling for failed API calls, and write unit tests for key components.",
+    "skills": "React.js, JavaScript (ES6+), Redux, HTML5, CSS3, RESTful APIs, Responsive Design, Unit Testing"
+  },
+  {
+    "id": 1764148548515,
+    "title": "Manual Test 2",
+    "description": "Test Description",
+    "skills": "Test"
+  },
+  {
+    "id": 1764149277810,
+    "title": "Design, Optimize, and Secure an Enterprise Database System",
+    "description": "Your company is migrating from legacy on-premise databases to a scalable cloud-based solution. As the database engineer, you are responsible for designing a new database schema that supports multiple business units, developing migration scripts, optimizing query performance, and implementing security measures including backup, access controls, and disaster recovery. You will also need to document the database architecture, mentor junior team members, and collaborate with application developers to ensure optimal integration.",
+    "skills": "database design, SQL, performance optimization, data migration, cloud technology, backup and recovery, security best practices, scripting"
+  },
+  {
+    "id": 1764150135745,
+    "title": "Professional Cheetah Hunter",
+    "description": "Join our elite wildlife management team as a Professional Cheetah Hunter, specializing in the ethical tracking, management, and population control of cheetahs within designated reserves and conservation areas. Responsibilities include planning and conducting field expeditions, using advanced tracking methods, ensuring safety protocols for staff and clients, maintaining detailed hunt records, and collaborating with local authorities to support ecological balance. Applicants will also guide and educate clients about cheetah behavior, conservation challenges, and responsible hunting practices.",
+    "skills": "advanced tracking, marksmanship, wildlife biology, navigation, firearms safety, ecology, first aid, vehicle operation, local language proficiency"
+  },
+  {
+    "id": 1764151381313,
+    "title": "Diagnose and Repair Complex Residential Plumbing Issue",
+    "description": "You are dispatched to a two-story home with reports of low water pressure throughout, slow drainage in multiple fixtures, and occasional water stains on the ceiling below the upstairs bathroom. Assess the situation by inspecting water supply lines, performing diagnostic tests, and checking for signs of leaks or code violations. Prepare a work plan, communicate findings and estimates to the homeowner, then carry out necessary repairs to restore full functionality and compliance with local plumbing codes.",
+    "skills": "diagnostic troubleshooting, blueprint reading, pipe fitting, leak detection, plumbing code knowledge, communication"
+  },
+  {
+    "id": 1764151510341,
+    "title": "Professional Magician (Entertainer)",
+    "description": "We are seeking a creative and charismatic magician to entertain diverse audiences at public and private events. The ideal candidate will perform a range of illusions, sleight-of-hand tricks, and interactive routines, while captivating guests through strong stage presence and engaging communication. Duties include developing new tricks, customizing acts for different venues, maintaining performance props, and handling basic event logistics. A passion for showmanship and the ability to quickly establish rapport with audiences are essential.",
+    "skills": "magic performance, audience engagement, creativity, dexterity, communication, showmanship, organizational skills"
+  },
+  {
+    "id": 1764151905720,
+    "title": "Emergency Leak Detection and Repair Challenge",
+    "description": "You are called to a commercial facility reporting a sudden drop in water pressure and signs of water leakage in the basement. Assess the situation by reading blueprints, use diagnostic tools to identify the leak’s location, and propose an immediate repair plan. Safely shut off affected systems, perform necessary repairs according to code, and provide documentation of your process. Communicate findings and recommendations with facility management, ensuring minimal disruption to operations.",
+    "skills": "diagnostic and problem-solving, code compliance, blueprint reading, leak detection, communication"
+  }
+]

@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+/* page transitions included from component CSS too */
+@layer utilities {
+  .animate-fadeInUp {
+    animation: fadeInUp 420ms ease forwards;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* subtle scrollbar theme */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(34, 43, 69, 0.08);
+  border-radius: 9999px;
+}
+
+@theme {
+  /* Colors */
+  --color-platinum: #EEE2DF;
+  --color-thistle: #DEC1DB;
+  --color-liberty: #5B61B2;
+  --color-bleu-de-france: #2F80E4;
+  --color-little-boy-blue: #6DA0E1;
+
+  /* Semantic Colors */
+  --color-primary: #2F80E4;
+  --color-secondary: #5B61B2;
+  --color-accent: #6DA0E1;
+  --color-background: #EEE2DF;
+  --color-surface: #ffffff;
+
+  --color-border: hsl(214.3 31.8% 91.4%);
+  --color-input: hsl(214.3 31.8% 91.4%);
+  --color-ring: hsl(221.2 83.2% 53.3%);
+  --color-foreground: hsl(222.2 84% 4.9%);
+
+  --radius: 0.5rem;
+
+  /* Background Images */
+  --background-image-sky-gradient: linear-gradient(to bottom right, #EEE2DF, #DEC1DB, #6DA0E1);
+  --background-image-blue-gradient: linear-gradient(135deg, #2F80E4 0%, #6DA0E1 100%);
+  --background-image-card-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.5) 100%);
+  --background-image-glass: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.3) 100%);
+
+  /* Animations */
+  --animate-fade-in: fadeIn 0.5s ease-out;
+  --animate-slide-up: slideUp 0.5s ease-out;
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-float: float 3s ease-in-out infinite;
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideUp {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-platinum text-slate-900 font-sans antialiased;
+    background-image: linear-gradient(to bottom right, #EEE2DF, #DEC1DB, #aebce6);
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply backdrop-blur-md bg-white/60 border border-white/50 shadow-lg;
+  }
+
+  .glass-card {
+    @apply backdrop-blur-sm bg-white/70 border border-white/60 shadow-sm hover:shadow-md transition-all duration-300;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-blue-gradient;
+  }
+}
